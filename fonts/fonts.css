@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'SuisseIntl-Light-WebM';
+	src: url('SuisseIntl-Light-WebM.eot');
+	src: url('SuisseIntl-Light-WebM.eot?#iefix') format('embedded-opentype'),
+	 url('SuisseIntl-Light-WebM.woff') format('woff'),
+	 url('SuisseIntl-Light-WebM.ttf') format('truetype'),
+	 url('SuisseIntl-Light-WebM.svg#Platform Web') format('svg');
+}
+
+@font-face {
+	font-family: 'SuisseIntl-LightItalic-WebM';
+	src: url('SuisseIntl-LightItalic-WebM.eot');
+	src: url('SuisseIntl-LightItalic-WebM.eot?#iefix') format('embedded-opentype'),
+	 url('SuisseIntl-LightItalic-WebM.woff') format('woff'),
+	 url('SuisseIntl-LightItalic-WebM.ttf') format('truetype'),
+	 url('SuisseIntl-LightItalic-WebM.svg#Platform Web') format('svg');
+}
+
+@font-face {
+	font-family: 'SuisseIntl-Medium-WebM';
+	src: url('SuisseIntl-Medium-WebM.eot');
+	src: url('SuisseIntl-Medium-WebM.eot?#iefix') format('embedded-opentype'),
+	 url('SuisseIntl-Medium-WebM.woff') format('woff'),
+	 url('SuisseIntl-Medium-WebM.ttf') format('truetype'),
+	 url('SuisseIntl-Medium-WebM.svg#Platform Web') format('svg');
+}
+
+@font-face {
+	font-family: 'SuisseIntl-MediumItalic-WebM';
+	src: url('SuisseIntl-MediumItalic-WebM.eot');
+	src: url('SuisseIntl-MediumItalic-WebM.eot?#iefix') format('embedded-opentype'),
+	 url('SuisseIntl-MediumItalic-WebM.woff') format('woff'),
+	 url('SuisseIntl-MediumItalic-WebM.ttf') format('truetype'),
+	 url('SuisseIntl-MediumItalic-WebM.svg#Platform Web') format('svg');
+}
+

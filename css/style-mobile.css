@@ -1,0 +1,348 @@
+
+body {
+	overflow: auto;
+}
+
+#home-mobile, #one, #four {
+	position: absolute;
+    -webkit-overflow-scrolling: touch;
+}
+
+#mobile-thumbs {
+	display: flex;
+}
+
+#mobile-thumbs.loading {
+	display: none;
+}
+
+#two, #three {
+	width:50%;
+	height: auto;
+}
+
+.main_column {
+	height: auto;
+	overflow-x: auto;
+	overflow-y: auto;
+}
+
+.portfolio-box, .practice-box {
+	position: relative;
+	float: none;
+}
+
+.portfolio-list-thumb {
+	height: auto;
+}
+
+.portfolio-list-thumb img {
+	width: 100%;
+	height:auto;
+}
+
+#section-thumbnails {
+    position: absolute;
+	background-color: #FFFFFF;
+    top: 1px;
+    left: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#section-thumbnails.practice {
+    left: -100%;
+}
+
+#section-thumbnails.portfolio {
+    left: 100%;
+}
+
+#section-thumbnails .A, #section-thumbnails .B {
+    width: 50%;
+}
+
+#section-thumbnails {
+	margin-top: 50px;
+}
+
+#section-thumbnails .not-featured {
+	display: block;
+}
+
+.practice-cell {
+	padding: 0px;
+	font-size: 16px;
+	padding-bottom: 60px;
+}
+
+
+.not-viewed {
+	height: 165px;
+	min-height: 165px;
+}
+
+.project-page.not-viewed {
+    height: 155px;
+    min-height: 155px;
+}
+
+.not-viewed .nxt-hover  {
+    height: 200px;
+}
+
+#navbar {
+	position: fixed;
+	z-index: 9;
+	top: -51px;
+	left: 0px;
+	width: 100%;
+	height: auto;
+	border-bottom: solid 1px #2d2d2d;
+	background-color: #FFFFFF;
+	font-size: 16px;
+}
+
+#navbar .hide {
+	display: none;
+}
+
+#navbar .flex {
+	display: flex;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#navbar .flex div {
+	width: 22px;
+	height: 22px;
+	overflow: hidden;
+}
+
+#navbar .ico {
+    background-size: 22px 22px;
+    background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+#navbar .home {
+	background-image: url(../img/symbol-H.svg);
+}
+
+#navbar .info {
+	background-image: url(../img/info.svg);
+}
+
+#navbar .search {
+	background-image: url(../img/symbol-search.svg);
+}
+
+#navbar .back.right {
+	background-image: url(../img/arrow-R.svg);
+}
+#navbar .back.left {
+	background-image: url(../img/arrow-L.svg);
+}
+
+#navbar .prac {
+	width: auto !important;
+}
+
+#navbar .port {
+	width: auto !important;;
+}
+
+#navbar .left {
+	margin-left: 20px;
+}
+#navbar .right {
+	margin-right: 20px;
+}
+
+
+#window_cover {
+	background-color: #808080;
+	opacity: 0.2;
+    position: fixed;
+    top: 1px;
+    left: 1px;
+	z-index: auto;
+}
+
+#iframe_wrapper {
+	position: fixed;
+	display: none;
+	z-index: 100;
+	border: solid 1px #000;
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 250px;
+	background-color: #FFF;
+	/* overflow: hidden; */
+}
+
+#newsletter_iframe {
+	width: 100%;
+	height: 200px;
+	margin-top: 30px;
+}
+
+.iframe_wrapper_close {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#image-header img {
+    padding-top: 99px;
+}
+
+#contact-menu {
+	position:fixed;
+}
+
+.filterOps {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #2d2d2d;
+    font-family: SuisseIntl-Light-WebM;
+    font-size: 18px;
+	position:fixed;
+    height: auto;
+    left: 0;
+    margin: 0;
+	position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.filterOps a {
+	text-decoration: none;
+	color: #2d2d2d;
+}
+
+.filterOps .filterCell {
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.filterOps .key {
+	width: 100%;
+}
+
+.filterOps .exit {
+	padding-right: 20px;
+}
+
+.filterOps .filterInput {
+	display: flex;
+}
+
+.filterOps .filterInput input {
+	width: 100%;
+    border: none;
+    padding: 3px 3px 3px 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+.not-selected {
+	opacity: 0.2;
+}
+
+
+#footer {
+    position: relative;
+	display: block;
+
+    font-family: 'SuisseIntl-Light-WebM';
+    height: 65px;
+    width: 100%;
+    margin: 0;
+    font-size: 16px;
+    border-top: 1px solid black;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#footer .info {
+	margin: 10px 0 0 20px;
+}
+
+.not-featured {
+	display:none;
+}
+
+
+.nxt-btn {
+	padding-bottom: 10px;
+}
+#single_practices .listing-page .profile-title {
+	height: auto;
+	padding-left: 0;
+	margin: 0 5.3% 40px 5.3%;
+}
+.profile-title .name {
+	padding-top: 40px;
+}
+.project-title .name {
+    padding-top: 40px;
+}
+.listing-title {
+	margin: 8px 5.3% 0px 5.3%;
+	padding-top: 42px;
+}
+
+#single_practices .listing-page:first-child .practice-container,
+#single_practices .listing-page:first-child .profile-container {
+    padding-top: 20px;
+}
+#single_portfolios .project-page:first-child .project-container {
+    padding-top: 25px;
+}
+
+
+#contact-menu,
+.listing-page,
+.project-page,
+button.tags-btn,
+table {
+	font-size: 12px;
+}
+/*
+table .table-content,
+*/
+table .table-desc {
+    width: 50%;
+}
+
+#secondary-nav {
+	margin-top: 15px;
+}
+
+#contact-menu #mailing-list-wrapper {
+	padding: 35px 0 0 0;
+}
+
+
+.contact-center {
+    width: 25%;
+}
+
+.newsletter-fields {
+    margin-right: 0px;
+}
+
+/* .info-container {
+    width: 27%;
+} */
